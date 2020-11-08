@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LoadShare</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="proceed">Proceed</string>
+    <string name="storage_denied_message">"Please Enable Storage Permission in Android Settings to use this feature. "</string>
+    <string name="title_activity_search_i_f_s_c">Search IFSC Code</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_splash">LoadShare</string>
+    <string name="search">Search</string>
+    <string name="enter_your_ifsc_code_below">Enter the IFSC code to search below</string>
+</resources>

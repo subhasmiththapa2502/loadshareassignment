@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="56dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".view.SearchIFSCActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/ivSelectedUserImage"
+            android:layout_width="wrap_content"
+            android:minHeight="100dp"
+            android:minWidth="100dp"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/profile_image" />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            tools:text="Name"
+            android:id="@+id/name"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_ifsc_code_below"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/etIFSC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:inputType="text" />
+    <Button
+        android:onClick="search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/search"/>
+</LinearLayout>
